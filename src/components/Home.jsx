@@ -10,7 +10,7 @@ function Home() {
       <Skills/>
       <footer className="p-3 text-center">
         <h6 className="mb-3">PaperChain</h6>
-        <p>Prana © All CopyRights Reserved 2024</p>
+        <p>All CopyRights Reserved 2024</p>
       </footer>
     </div>
   );

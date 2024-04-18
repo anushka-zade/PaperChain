@@ -57,7 +57,7 @@ export const content = {
         name: "Verify Document",
         para: " ",
         logo: "https://static.vecteezy.com/system/resources/previews/010/882/101/original/clipboard-note-taking-paper-3d-icon-illustration-png.png",
-      },
+      }
       // {
       //   name: "QRCodeIssuerSignature",
       //   para: " ",

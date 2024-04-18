@@ -10,6 +10,8 @@ import { useEffect } from "react";
 import Skills from './components/Skills';
 import DocumentUpload from './pages/DocumentUpload';
 import Verification from './pages/Verification';
+import Logini from './pages/logini.jsx';
+import Loginv from './pages/loginv.jsx';
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -68,15 +70,15 @@ const App = () => {
   //   }
   // };
 
-
-  
   return (
     <div className="">
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/issue-document" element={<DocumentUpload />} />
-        <Route path="/verify-document" element={<Verification />} /> 
+        <Route path="/issue-document" element={<Logini />} />
+        <Route path="/verify-document" element={<Loginv />} />
+        <Route path="/li" element={<DocumentUpload />} />
+        <Route path="/lv" element={<Verification />} />
       </Routes>
     </div>
   );
