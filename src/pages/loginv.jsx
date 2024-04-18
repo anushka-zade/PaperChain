@@ -39,7 +39,7 @@ const Login = () => {
               }}>
                 <div className="p-5 rounded bg-white" style={{ maxWidth: '400px' }}>
                     <form onSubmit={handleSubmit}>
-                        <h3 className='text-center'>Issuer Login</h3>
+                        <h3 className='text-center'>Verifier Login</h3>
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Email</label>
                             <input type="email" placeholder="Enter Email" className="form-control" value={email} onChange={handleEmailChange} />
@@ -72,7 +72,7 @@ const Login = () => {
               }}>
                 <div className="p-5 rounded bg-white" style={{ maxWidth: '400px' }}>
                     <form onSubmit={handleSubmit}>
-                        <h3 className='text-center'>Issuer Login</h3>
+                        <h3 className='text-center'>Verifier Login</h3>
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Email</label>
                             <input type="email" placeholder="Enter Email" className="form-control" value={email} onChange={handleEmailChange} />
