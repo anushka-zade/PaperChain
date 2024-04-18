@@ -17,19 +17,8 @@ export const content = {
     {
       link: "#skills",
       icon: BiUser,
-    },
-    {
-      link: "#services",
-      icon: RiServiceLine,
-    },
-    {
-      link: "#projects",
-      icon: RiProjectorLine,
-    },
-    {
-      link: "#contact",
-      icon: MdOutlinePermContactCalendar,
-    },
+    }
+    
   ],
   hero: {
     title: " ",
