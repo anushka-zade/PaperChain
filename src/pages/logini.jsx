@@ -81,7 +81,7 @@ const Login = () => {
                             <label htmlFor="password" className="form-label">Password</label>
                             <input type="password" placeholder="Enter Password" className="form-control" value={password} onChange={handlePasswordChange} />
                         </div>
-                        <Link to={'/li'}>
+                        <Link to={'/login-issuer'}>
                         <div className="d-grid">
                             <button type="submit" className='btn btn-primary' disabled={isSubmitDisabled}>Sign In</button>
                         </div>

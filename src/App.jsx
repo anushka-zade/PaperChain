@@ -77,8 +77,8 @@ const App = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/issue-document" element={<Logini />} />
         <Route path="/verify-document" element={<Loginv />} />
-        <Route path="/li" element={<DocumentUpload />} />
-        <Route path="/lv" element={<Verification />} />
+        <Route path="/login-issuer" element={<DocumentUpload />} />
+        <Route path="/login-verifier" element={<Verification />} />
       </Routes>
     </div>
   );
