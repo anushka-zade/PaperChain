@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
-import Home from './components/Home';
+// import components
+
+import React from 'react';
+import { ethers } from "ethers";
+import {PaperChainAddress} from "./contract/PaperChain.js"
+import {PaperChainABI} from "./contract/PaperChain.js"
+import { Routes, Route } from "react-router-dom"
+import Home from "./components/Home";
+import { useEffect } from "react";
 import Skills from './components/Skills';
 import DocumentUpload from './pages/DocumentUpload';
 import Verification from './pages/Verification';
-import Logini from './pages/logini';
-import Loginv from './pages/loginv';
+import Logini from './pages/logini.jsx';
+import Loginv from './pages/loginv.jsx';
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -64,8 +70,6 @@ const App = () => {
   //   }
   // };
 
-
-  
   return (
     <div className="">
       <Routes>
